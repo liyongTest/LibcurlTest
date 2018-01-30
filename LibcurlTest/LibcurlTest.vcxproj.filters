@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Libcurl">
+      <UniqueIdentifier>{7cd4489f-893f-456d-b806-e5b414e56487}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LibcurlHttpRequest.h">
+      <Filter>Libcurl</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -28,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="LibcurlTest.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibcurlHttpRequest.cpp">
+      <Filter>Libcurl</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
